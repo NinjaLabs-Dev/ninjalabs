@@ -9,8 +9,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "v-tooltip": "^2.0.3",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.2.0",
+    "vue-tilt.js": "^1.1.1",
+    "vue2-transitions": "^0.3.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
