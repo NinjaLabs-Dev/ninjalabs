@@ -6,7 +6,7 @@
         <div class="showcase">
 
           <span class="header">console.log("Welcome!")</span>
-          <h3 class="body">Hi, I'm Fraser Donaldson.<br>I'm an aspiring<br>developer from the UK.</h3>
+          <h3 class="body">Hi, I'm Fraser Donaldson.<br>I'm an software<br>developer from the UK.</h3>
           <router-link to="/contact" tag="button" class="contact">
             Contact Me
           </router-link>
