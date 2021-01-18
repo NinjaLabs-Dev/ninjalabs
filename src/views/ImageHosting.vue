@@ -66,7 +66,7 @@ export default {
     return {
       name: null,
       email: null,
-      extra_storage: null,
+      extra_storage: false,
       successMessage: false
     }
   },
@@ -75,7 +75,7 @@ export default {
       axios.post('https://panel.ninjalabs.dev/api/interest', {
         name: this.name,
         email: this.email,
-        extra_storage: this.extra_storage
+        extra_storage: this.extra_storage 
       }).then((res) => {
         this.successMessage = res.data.message;
       }).catch((e) => {
