@@ -5,10 +5,10 @@
         <div class="showcase">
           <span class="header">Fraser Donaldson</span>
           <h3 class="body">
-            I'm a 17 year old aspiring developer from Cumbria, UK. I started web development when I was 11 and never slowed down.
+            I'm a 17 year old software developer from Cumbria, UK. I started web development when I was 11 and never slowed down.
             <br>
             <br>
-            Recently I've been specializing in the Laravel ecosystem.
+            I specialize in the Laravel & Vue ecosystem with NodeJS
           </h3>
         </div>
 
