@@ -292,6 +292,10 @@ body, html {
           background: #ffffff;
           color: #050505;
           cursor: pointer; }
+      #app .hosting .showcase .interest-form .no-share {
+        opacity: .5;
+        margin: .75em 0 0 0;
+        font-size: .85em; }
     #app .hosting .showcase .contact {
       margin: 0 auto !important; }
   #app .projects .main-content .image-container {
