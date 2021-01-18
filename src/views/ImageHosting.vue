@@ -18,7 +18,7 @@
             </div>
           </div>
 
-          <form action="POST" class="interest-form" v-if="!successMessage">
+          <div class="interest-form" v-if="!successMessage">
             <div :class="{ 'input-group': true }">
               <label for="name">Name</label>
               <input name="name" id="name" type="text" v-model="name" autocomplete="first_name" required placeholder="John">
@@ -35,7 +35,7 @@
             </div>
 
             <button class="submit" type="submit" @click="submitForm()">Register Interest</button>
-          </form>
+          </div>
 
           <div class="sent interest-form" v-if="successMessage">
             <p>Submitted, thanks for your interest, we'll be in touch!</p>
