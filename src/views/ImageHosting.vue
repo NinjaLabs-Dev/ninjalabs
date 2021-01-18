@@ -72,8 +72,6 @@ export default {
   },
   methods: {
     submitForm(e) {
-      e.preventDefault();
-
       axios.post('https://panel.ninjalabs.dev/api/interest', {
         name: this.name,
         email: this.email,
