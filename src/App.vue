@@ -19,7 +19,7 @@
           <router-link @click.native="isNavActive = false" to="contact" tag="li" class="nav-item">Contact Me</router-link>
         </ul>
         <div class="copyright">
-          <span>&copy; Fraser Donaldson 2021</span>
+          <span>&copy; Fraser (NinjaLabs) 2019-2021</span>
         </div>
       </div>
     </fade-transition>

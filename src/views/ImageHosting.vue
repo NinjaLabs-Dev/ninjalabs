@@ -35,10 +35,12 @@
             </div>
 
             <button class="submit" type="submit" @click="submitForm()">Register Interest</button>
+
+            <p class="no-share">Don't worry! We won't share ;)</p>
           </div>
 
           <div class="sent interest-form" v-if="successMessage">
-            <p>Submitted, thanks for your interest, we'll be in touch!</p>
+            <p>{{ successMessage }}</p>
           </div>
         </div>
       </div>
@@ -71,13 +73,13 @@ export default {
     }
   },
   methods: {
-    submitForm(e) {
+    submitForm() {
       axios.post('https://panel.ninjalabs.dev/api/interest', {
         name: this.name,
         email: this.email,
         extra_storage: this.extra_storage 
-      }).then((res) => {
-        this.successMessage = res.data.message;
+      }).then(() => {
+        this.successMessage = 'Submitted, thanks for your interest, we\'ll be in touch!';
       }).catch((e) => {
         this.successMessage = e.message;
       });
