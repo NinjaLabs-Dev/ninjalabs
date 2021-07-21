@@ -5,11 +5,11 @@
 				<div class="showcase">
 					<span class="header">Warning</span>
 					<h3 class="body text-center">
-						It's your lucky day (kina), you really should check links before clicking! The domain you cliked was st<b>ee</b>mcomm<b>nn</b>ity.com not
+						It's your lucky day (kina), you really should check links before clicking! The domain you clicked was st<b>ee</b>mcomm<b>nn</b>ity.com not
 						<a href="http://steamcommunity.com/" class="link">steamcommunity.com</a>
 						<br>
 						<br>
-						Stay save {{ heart }}
+						Stay safe {{ heart }}
 					</h3>
 				</div>
 			</div>
