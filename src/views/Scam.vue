@@ -9,7 +9,7 @@
 						<a href="http://steamcommunity.com/" class="link">steamcommunity.com</a>
 						<br>
 						<br>
-						Stay save %3C3
+						Stay save {{ heart }}
 					</h3>
 				</div>
 			</div>
@@ -25,7 +25,12 @@
 
 <script>
 export default {
-	name: "Scam.vue"
+	name: "Scam.vue",
+	data() {
+		return {
+			heart: '<3'
+		}
+	}
 }
 </script>
 
