@@ -16,7 +16,7 @@
         <div class="main-content">
           <slide-x-left-transition>
             <div class="showcase">
-              <div class="header">
+              <div class="header" :style="{'font-size': projects[selected].titleSize ? projects[selected].titleSize : '3em'}">
                 {{ projects[selected].title }}
                 <div class="featured-tag" v-show="projects[selected].featured" v-tooltip.top-center="projects[selected].featured">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="48px" height="48px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 17.27l5.17 3.12c.38.23.85-.11.75-.54l-1.37-5.88 4.56-3.95c.33-.29.16-.84-.29-.88l-6.01-.51-2.35-5.54c-.17-.41-.75-.41-.92 0L9.19 8.63l-6.01.51c-.44.04-.62.59-.28.88l4.56 3.95-1.37 5.88c-.1.43.37.77.75.54L12 17.27z"/></svg>
@@ -77,20 +77,22 @@ export default {
       lightboxHeader: null,
       projects: [
         {
-          title: 'LLS MDTv2',
-          description: 'A simple MDT for a FiveM server, using Laravel, Lua and Node.Js to create a reactive and modern real-time system.',
-          wip: 'Work In Progress',
+          title: 'TruckersFM Radiocloud',
+	      titleSize: '2.5em',
+          description: 'A modern and new panel for presenters at TruckersFM. Made with in collaboration with Joshua Blackman.',
           featured: 'This is Featured',
           images: [
-            { src: 'https://i.imgur.com/XINsvUv.png', header: 'Login Page'},
-            { src: 'https://i.imgur.com/argneqX.png', header: 'Home Page'},
-            { src: 'https://i.imgur.com/07s82wG.png', header: 'User Settings'},
-            { src: 'https://i.imgur.com/RPBaW2g.png', header: 'Light Mode User Settings'}
+            { src: 'https://cdn.ninjalabs.dev/60ova', header: 'Home Page'},
+            { src: 'https://cdn.ninjalabs.dev/Q9Ukx', header: 'Show Overview Page'},
+            { src: 'https://cdn.ninjalabs.dev/3CFtB', header: 'Clip Submission System'},
+            { src: 'https://cdn.ninjalabs.dev/N207O', header: 'Recent Song System'}
           ],
         },
         {
           title: 'LLS MDTv1',
           description: 'A simple MDT system for a Fivem Server, using Laravel and Node.Js this was my first MDT which is still in use.',
+	      featured: 'This is Featured',
+	      archived: true,
           images: [
             { src: 'https://i.imgur.com/6HNEPar.png', header: 'Home Page'},
             { src: 'https://i.imgur.com/vLZqatm.png', header: 'User Profile (Dark)'},
@@ -100,17 +102,17 @@ export default {
         },
         {
           title: 'Make Me FAQ',
-          description: 'A quick and minimalist design making anwsering questions a quick and easy process. Using VueJS to create a reactive website.',
+          description: 'A quick and minimalist design making answering questions a quick and easy process. Using VueJS to create a reactive website.',
           images: [
-            { src: 'https://i.imgur.com/m7XMmks.png', header: 'Main Page'},
-            { src: 'https://i.imgur.com/EfkWefe.png', header: 'Searching Feature'},
-            { src: 'https://i.imgur.com/4561Wvj.png', header: 'Search Result Checking'},
-            { src: 'https://i.imgur.com/rUxjjU5.png', header: 'Dropdown Anwsers'}
+            { src: 'https://cdn.ninjalabs.dev/wMqlg', header: 'Main Page'},
+            { src: 'https://cdn.ninjalabs.dev/vlm6r', header: 'Searching Feature'},
+            { src: 'https://cdn.ninjalabs.dev/sLcDw', header: 'Search Result Checking'},
+            { src: 'https://cdn.ninjalabs.dev/RfHBG', header: 'Dropdown Answers'}
           ],
         },
         {
           title: 'Myriad Playing',
-          description: 'A custom built script to take billboard infomation XML from Myriad and convert to a simple TXT that an encoding software can read.',
+          description: 'A custom built script to take billboard information XML from Myriad and convert to a simple TXT that an encoding software can read.',
           github: 'https://github.com/NinjaLabs-Dev/myriad-5-now-playing',
           images: [
             { src: 'https://i.imgur.com/NZ2SUjm.png', header: 'Output File'},

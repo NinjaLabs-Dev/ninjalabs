@@ -15,37 +15,14 @@
           <router-link @click.native="isNavActive = false" to="/" tag="li" class="nav-item">Home</router-link>
           <router-link @click.native="isNavActive = false" to="about" tag="li" class="nav-item">About Me</router-link>
           <router-link @click.native="isNavActive = false" to="projects" tag="li" class="nav-item">Projects</router-link>
-          <router-link @click.native="isNavActive = false" to="hosting" tag="li" class="nav-item new">Hosting <div class="new-tag">NEW</div></router-link>
           <router-link @click.native="isNavActive = false" to="contact" tag="li" class="nav-item">Contact Me</router-link>
         </ul>
         <div class="copyright">
-          <span>&copy; Fraser (NinjaLabs) 2019-2021</span>
+          <span>&copy; Fraser (NinjaLabs) 2019-{{new Date().getFullYear()}}</span>
         </div>
       </div>
     </fade-transition>
     <router-view/>
-
-    <fade-transition>
-      <div class="announcement-container" v-if="notificationActive">
-        <div class="inner-container">
-          <div class="info">
-            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <div class="text-container">
-              <span class="bold">Something new for 2021: </span>
-              <span>Custom image and file hosting, made simple. Register your interest <router-link  to="hosting" tag="a" class="nav-item">here</router-link>.</span>
-            </div>
-          </div>
-
-          <a class="close" @click="notificationActive = false">
-            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </fade-transition>
   </div>
 </template>
 
@@ -73,8 +50,7 @@ export default {
   },
   data() {
     return {
-      isNavActive: false,
-      notificationActive: true
+      isNavActive: false
     }
   },
   components: {
