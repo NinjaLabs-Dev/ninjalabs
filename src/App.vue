@@ -45,8 +45,7 @@ export default {
       { name: 'og:image', content: 'https://i.imgur.com/oobGtbO.png' },
       { name: 'og:description', content: 'Creating simple, modern and intricate web designs and applications to power the world of real-time data.' },
       { name: 'og:title', content: 'NinjaLabs - Creating the Future' },
-      { name: 'theme-color', content: '#FFFFFF' },
-	  { name: 'wot-verification', content: 'e5b6993ec34ec8d414b5' }
+      { name: 'theme-color', content: '#FFFFFF' }
     ]
   },
   data() {

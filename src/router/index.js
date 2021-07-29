@@ -5,7 +5,6 @@ import About from '@/views/About.vue';
 import Projects from '@/views/Projects.vue';
 import Contact from '@/views/Contact.vue';
 import ErrorPage from '@/views/ErrorPage.vue';
-import Scam from "@/views/Scam";
 
 Vue.use(VueRouter)
 
@@ -36,11 +35,6 @@ const routes = [
       name: 'Home'
     }
   },
-  {
-    path: '/scam-alert',
-    name: 'Scam Alert',
-    component: Scam
-  } ,
   {
     path: '*',
     name: 'Error',
