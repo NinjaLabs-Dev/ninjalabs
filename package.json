@@ -9,7 +9,7 @@
     "webpack-defaults": "webpack-defaults"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.24.0",
     "cli-service": "0.0.2",
     "core-js": "^3.11.0",
     "css-loader": "^5.2.4",
