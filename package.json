@@ -11,8 +11,8 @@
   "dependencies": {
     "axios": "^0.24.0",
     "cli-service": "0.0.2",
-    "core-js": "^3.11.0",
-    "css-loader": "^5.2.7",
+    "core-js": "^3.19.1",
+    "css-loader": "^5.2.4",
     "jquery": "^3.6.0",
     "postcss-loader": "^4.2.0",
     "v-tooltip": "^2.1.3",
