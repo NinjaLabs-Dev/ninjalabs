@@ -69,6 +69,9 @@ export default  {
 		link: [
 			{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
 			{ rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: true },
+		],
+		script: [
+			{ async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-L35FKSSWSF' }
 		]
 	},
 	data() {
@@ -77,6 +80,10 @@ export default  {
 		}
 	},
 	mounted() {
+		window.dataLayer = window.dataLayer || [];
+		this.gtag('js', new Date());
+		this.gtag('config', 'G-L35FKSSWSF');
+
 		this.$root.$on('border_alert', (type, wait = null) => {
 			this.borderAlert(type).then(() => {
 				if(wait) {
@@ -88,6 +95,9 @@ export default  {
 		})
 	},
 	methods: {
+		gtag(){
+			window.dataLayer.push(arguments)
+		},
 		borderAlert(type) {
 			return new Promise((resolve, reject) => {
 				switch (type) {
