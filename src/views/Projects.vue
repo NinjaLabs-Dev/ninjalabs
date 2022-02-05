@@ -17,13 +17,15 @@
 						<el-timeline>
 							<el-timeline-item :timestamp="exp.timespan" placement="top" v-for="(exp, i) in experience" :key="i">
 								<el-card>
-									<a href="https://sypo.uk" target="_blank" v-if="exp.link"><h4>{{ exp.name }} <i class="bx bx-link-external exp-icon"></i></h4></a>
-									<h4 v-else>{{ exp.name }}</h4>
-									<p>{{ exp.description }}</p>
-									<div class="mt-4">
-										<div class="card shadow-sm mb-2" :class="pos.color" v-for="(pos, x) in exp.positions" :key="x">
-											<div class="card-body">
-												<p class="mb-0" v-for="(p, y) in pos.content" :key="y">{{ p }}</p>
+									<div>
+										<a href="https://sypo.uk" target="_blank" v-if="exp.link"><h4>{{ exp.name }} <i class="bx bx-link-external exp-icon"></i></h4></a>
+										<h4 v-else>{{ exp.name }}</h4>
+										<p>{{ exp.description }}</p>
+										<div class="mt-4">
+											<div class="card shadow-sm mb-2" :class="pos.color" v-for="(pos, x) in exp.positions" :key="x">
+												<div class="card-body">
+													<p class="mb-0" v-for="(p, y) in pos.content" :key="y">{{ p }}</p>
+												</div>
 											</div>
 										</div>
 									</div>
