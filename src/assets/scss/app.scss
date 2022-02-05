@@ -1,0 +1,189 @@
+@import "home";
+@import "error";
+@import "me";
+@import "projects";
+@import "contact";
+
+@import "components/panel";
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html {
+	min-height: 100vh;
+	width: 100%;
+}
+
+html, body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: #050505 !important;
+	min-height: 100vh;
+	margin: unset !important;
+	color: #eee !important;
+}
+
+a {
+	color: #ffffff !important;
+	transition: .25s ease-in-out;
+	&:hover {
+		color: #bababa !important;
+	}
+}
+
+#app {
+	min-height: 100vh;
+	display: flex;
+	//min-height: 100vh;
+}
+
+.el-timeline-item__timestamp {
+	color: #ffffff8c !important;
+}
+
+.el-timeline-item__node {
+	background-color: #424242 !important;
+}
+
+.el-timeline-item__tail {
+	border-left: 2px solid #424242 !important;
+}
+
+.content-container {
+	display: flex;
+	position: relative;
+	flex-grow: 1;
+	margin: 1.5em;
+	padding: 1em;
+
+	.border {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		border: none !important;
+		background-image: linear-gradient(60deg, rgba(245, 149, 152,.8), rgba(245, 149, 152,0) 70.71%),
+						  linear-gradient(120deg, rgba(254, 189, 125,.8), rgba(254, 189, 125,0) 70.71%),
+						  linear-gradient(180deg, rgba(255, 248, 114, 0.8), rgba(255, 248, 114,0) 70.71%),
+						  linear-gradient(240deg, rgba(187, 220, 173,.8), rgba(187, 220, 173,0) 70.71%),
+						  linear-gradient(300deg, rgba(97, 162, 255, 0.8), rgba(97, 162, 255,0) 70.71%),
+						  linear-gradient(0deg, rgba(183, 158, 255, 0.8), rgba(183, 158, 255,0) 70.71%);
+	}
+
+	.alert-color {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: opacity 0.25s ease-in-out;
+
+		&.show {
+			transition: opacity 0.25s ease-in-out;
+			opacity: 1;
+		}
+
+		&.success {
+			background-image: linear-gradient(320deg, rgba(70, 255, 134, 0.8), rgba(70, 255, 134,.8) 70.71%),
+							  linear-gradient(140deg, rgba(41, 191, 91, 0.8), rgba(70, 255, 134,.5) 70.71%);
+		}
+
+		&.danger {
+			background-image: linear-gradient(320deg, rgba(255, 76, 70, 0.8), rgba(255, 76, 70,.8) 70.71%),
+							  linear-gradient(140deg, rgba(186, 85, 79, 0.8), rgba(255, 76, 70,.5) 70.71%);
+		}
+	}
+}
+
+.inner-content {
+	flex-grow: 1;
+	background: #050505;
+	z-index: 0;
+	padding: 1em 1.5em;
+
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.brand {
+			display: flex;
+			align-items: center;
+
+			a {
+				color: unset;
+				text-decoration: none;
+			}
+
+			h3 {
+				margin: 0;
+				font-size: 1.5em;
+			}
+		}
+
+		.menu-item {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.item {
+				position: relative;
+				top: .25em;
+				margin: 0 1.5em .5em 1.5em;
+				text-decoration: none !important;
+				color: #eee !important;
+
+				&.router-link-exact-active {
+					margin-bottom: 0;
+					padding-bottom: .25em;
+					border-bottom: .25em solid #eeeeee;
+				}
+			}
+		}
+	}
+}
+
+.noise-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -10;
+	opacity: .03;
+	top: 0;
+	left: 0;
+	.noise {
+		// Noise background-image: located in App.vue due to import limitation
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.brand  {
+		display: none !important;
+	}
+
+	.navbar {
+		justify-content: center !important;
+	}
+
+	.menu-item {
+		.item {
+			text-align: center;
+		}
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.hero .content {
+		text-align: center;
+	}
+
+	.hero .content {
+		margin: 0 1em 0 1em !important;
+	}
+}
+

@@ -1,0 +1,50 @@
+.projects {
+	a {
+		color: unset;
+		font-weight: 600;
+	}
+
+	.hero {
+		margin: 5em 0;
+	}
+
+	.card, .el-card__body, .el-card {
+		background: #050505;
+		border-color: #222222;
+		color: #fff;
+		border-width: .25em;
+
+		&.no-border {
+			border-width: 0;
+		}
+	}
+
+	.exp-icon {
+		font-size: .75em;
+	}
+
+	.border-left-primary {
+		border-left-width: .25em;
+		border-left-color: #0d6efd;
+	}
+
+	.border-left-danger {
+		border-left-width: .25em;
+		border-left-color: #dc3545;
+	}
+
+	.border-left-info {
+		border-left-width: .25em;
+		border-left-color: #0dcaf0;
+	}
+
+	.panel {
+		.content {
+			width: 100%;
+		}
+	}
+
+	.el-timeline {
+		padding-left: 5px;
+	}
+}

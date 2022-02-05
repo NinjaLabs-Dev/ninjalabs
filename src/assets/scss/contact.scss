@@ -1,0 +1,20 @@
+.contact {
+	.hero {
+		margin: 5em 0;
+	}
+
+	.card, .el-card__body, .el-card {
+		background: #050505;
+		border-color: #222222;
+		color: #fff;
+		border-width: .25em;
+
+		&.no-border {
+			border-width: 0;
+		}
+	}
+
+	.exp-icon {
+		font-size: .75em;
+	}
+}

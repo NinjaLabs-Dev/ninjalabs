@@ -1,0 +1,64 @@
+.me {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.hero {
+		width: 100%;
+		margin: 0 9em;
+
+		.showcase {
+			&:hover {
+				top: -15px;
+			}
+
+			position: relative;
+			top: 0;
+			transition: .25s ease-in-out;
+
+			.code-overview {
+				border-radius: .25em;
+			}
+		}
+
+		.content {
+
+			.cli {
+				.target {
+					color: #16c60c;
+				}
+
+				.dir {
+					color: #3365d5;
+				}
+			}
+
+			.pronouns {
+				opacity: .75;
+				font-size: .5em;
+			}
+
+			.sub {
+				font-weight: 300;
+
+				a {
+					color: unset;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.me {
+		.content {
+			text-align: center;
+		}
+
+		.blob {
+			width: 100% !important;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.home {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	.hero {
+		margin: 3em 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.content {
+			margin: 0 0 0 9em;
+		}
+
+		.title {
+			font-size: 4em;
+			margin: 0;
+		}
+
+		.sub {
+			font-size: 2em;
+			margin: 0;
+		}
+	}
+
+	.panel:hover {
+		cursor: pointer;
+	}
+}
