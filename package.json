@@ -13,6 +13,7 @@
     "boxicons": "^2.0.9",
     "core-js": "^3.6.5",
     "element-ui": "^2.15.6",
+    "prerender-spa-plugin": "^3.4.0",
     "v-tooltip": "^3.0.0-beta.1",
     "vue": "^2.6.11",
     "vue-meta": "^2.4.0",

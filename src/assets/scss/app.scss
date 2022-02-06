@@ -193,3 +193,11 @@ a {
 	}
 }
 
+@media only screen and (max-width: 600px) {
+	.content-container {
+		margin: 0 !important;
+		padding: 0.5em !important;
+	}
+}
+
+

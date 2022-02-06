@@ -28,7 +28,7 @@
 				</router-link>
 
 				<a href="#" target="_blank" class="panel shadow col-lg-6 my-2 my-md-0 mx-0 mx-md-2">
-					<div class="content col-8 col-md-10">
+					<div class="content col-8  col-lg-8 col-xl-10">
 						<p class="title-sub">Latest Project <i class='bx bx-lock' ></i></p>
 						<h3 class="title">Radiocloud</h3>
 						<p class="desc">Developing TruckersFM's staff panel allowing presenters to interact with listeners and view data easily.</p>
