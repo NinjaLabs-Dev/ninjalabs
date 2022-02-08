@@ -71,7 +71,8 @@ export default  {
 			{ rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: true },
 		],
 		script: [
-			{ async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-L35FKSSWSF' }
+			{ async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-L35FKSSWSF' },
+			{ async: true, src: 'https://www.googletagmanager.com/gtag/js?id=UA-219527447-1'}
 		]
 	},
 	data() {
@@ -83,6 +84,7 @@ export default  {
 		window.dataLayer = window.dataLayer || [];
 		this.gtag('js', new Date());
 		this.gtag('config', 'G-L35FKSSWSF');
+		this.gtag('config', 'UA-219527447-1');
 
 		this.$root.$on('border_alert', (type, wait = null) => {
 			this.borderAlert(type).then(() => {
