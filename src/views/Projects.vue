@@ -63,7 +63,7 @@
 							<el-card class="mb-4">
 								<div class="row">
 									<div class="col-12 text-center">
-										<p class="mb-0">Want to see more of my work? Check out my <a href="https://github.com/NinjaLabsDev" target="_blank">Github</a>!</p>
+										<p class="mb-0">Want to see more of my work? Check out my <a href="https://github.com/NinjaLabs-Dev" target="_blank">Github</a>!</p>
 									</div>
 								</div>
 							</el-card>
