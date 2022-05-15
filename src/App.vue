@@ -38,6 +38,11 @@
 							<i class='bx bx-phone' ></i>
 							Contact
 						</router-link>
+
+						<router-link to="/hosting" class="item cta">
+							<i class='bx bx-briefcase' ></i>
+							Website Hosting
+						</router-link>
 					</div>
 				</div>
 				<transition name="fade" mode="out-in">

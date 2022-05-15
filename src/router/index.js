@@ -38,6 +38,11 @@ const routes = [
 		component: () => import('../views/Contact')
 	},
 	{
+		path: '/hosting',
+		name: 'Hosting',
+		component: () => import('../views/Hosting')
+	},
+	{
 		path: '*',
 		name: 'Error',
 		component: () => import('../views/NotFound.vue')

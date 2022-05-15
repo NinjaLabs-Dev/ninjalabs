@@ -51,9 +51,9 @@
 
 <script>
 export default {
-	name: 'Home',
+	name: 'Contact',
 	metaInfo: {
-		title: 'Home'
+		title: 'Contact'
 	},
 	data() {
 		return {

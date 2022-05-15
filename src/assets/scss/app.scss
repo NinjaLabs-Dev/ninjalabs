@@ -142,6 +142,16 @@ a {
 				text-decoration: none !important;
 				color: #eee !important;
 
+				&.cta {
+					background: #6009f3;
+					padding: .5em;
+					border-radius: .1em;
+
+					&:hover {
+						background: #c767ac !important;
+					}
+				}
+
 				&.router-link-exact-active {
 					margin-bottom: 0;
 					padding-bottom: .25em;

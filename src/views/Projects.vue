@@ -77,9 +77,9 @@
 
 <script>
 export default {
-	name: 'Home',
+	name: 'Experience',
 	metaInfo: {
-		title: 'Home'
+		title: 'Experience'
 	},
 	data() {
 		return {

@@ -51,4 +51,17 @@
 	.el-timeline {
 		padding-left: 5px;
 	}
+
+	.contact-button {
+		background: #070808;
+		padding: 1em 0;
+		border: .25em solid #222222;
+		font-size: 1.1em;
+
+		&:hover, &:focus {
+			transition: all .25s;
+			border: .25em solid #222222;
+			background: #222222;
+		}
+	}
 }
