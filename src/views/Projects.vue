@@ -18,7 +18,7 @@
 							<el-timeline-item :timestamp="exp.timespan" placement="top" v-for="(exp, i) in experience" :key="i">
 								<el-card>
 									<div>
-										<a href="https://sypo.uk" target="_blank" v-if="exp.link"><h4>{{ exp.name }} <i class="bx bx-link-external exp-icon"></i></h4></a>
+										<a :href="exp.link" target="_blank" v-if="exp.link"><h4>{{ exp.name }} <i class="bx bx-link-external exp-icon"></i></h4></a>
 										<h4 v-else>{{ exp.name }}</h4>
 										<p>{{ exp.description }}</p>
 										<div class="mt-4">
@@ -63,7 +63,7 @@
 							<el-card class="mb-4">
 								<div class="row">
 									<div class="col-12 text-center">
-										<p class="mb-0">Want to see more of my work? Check out my <a href="https://github.com/NinjaLabsDev" target="_blank">Github</a>!</p>
+										<p class="mb-0">Want to see more of my work? Check out my <a href="https://github.com/NinjaLabs-Dev" target="_blank">Github</a>!</p>
 									</div>
 								</div>
 							</el-card>
