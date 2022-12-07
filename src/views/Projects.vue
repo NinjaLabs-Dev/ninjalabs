@@ -144,7 +144,7 @@ export default {
 				{
 					name: 'TruckersFM',
 					link: 'https://truckers.fm',
-					timespan: '7/9/2018 - Present',
+					timespan: '7/9/2018 - 16/11/22',
 					description: 'Work for TruckersFM consisted from developing a login panel for presenters to login into and access data like requests, listener stats, song playback and more. I also worked with the main website allowing listeners to check stats, send requests and more.',
 					positions: [
 						{

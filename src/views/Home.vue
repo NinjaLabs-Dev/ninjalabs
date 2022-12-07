@@ -27,18 +27,18 @@
 					</div>
 				</router-link>
 
-				<a href="#" target="_blank" class="panel shadow col-lg-6 my-2 my-md-0 mx-0 mx-md-2">
+				<router-link tag="div" class="panel shadow col-lg-6 my-2 my-md-0 mx-0 mx-md-2" to="/projects">
 					<div class="content col-8  col-lg-8 col-xl-10">
-						<p class="title-sub">Latest Project <i class='bx bx-lock' ></i></p>
-						<h3 class="title">Radiocloud</h3>
-						<p class="desc">Developing TruckersFM's staff panel allowing presenters to interact with listeners and view data easily.</p>
+						<p class="title-sub">Latest Project</p>
+						<h3 class="title">United Gaming - LFB Discord Bot</h3>
+						<p class="desc">Discord bot to allow seamless intergration between discord and google spreadsheets, mainly pulling and updating information on training and more.</p>
 					</div>
 
 					<a href="https://cdn.ninjalabs.dev/Q9Ukx" target="_blank" class="showcase">
 						<div class="thumbnail" style="background: url('https://cdn.ninjalabs.dev/Q9Ukx');">
 						</div>
 					</a>
-				</a>
+				</router-link>
 			</div>
 		</div>
 	</main>
