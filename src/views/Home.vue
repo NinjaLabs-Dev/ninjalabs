@@ -34,8 +34,8 @@
 						<p class="desc">Discord bot to allow seamless intergration between discord and google spreadsheets, mainly pulling and updating information on training and more.</p>
 					</div>
 
-					<a href="https://cdn.ninjalabs.dev/Q9Ukx" target="_blank" class="showcase">
-						<div class="thumbnail" style="background: url('https://cdn.ninjalabs.dev/Q9Ukx');">
+					<a href="https://cdn.ninjalabs.dev/jTvMQ" target="_blank" class="showcase">
+						<div class="thumbnail" style="background: url('https://cdn.ninjalabs.dev/jTvMQ');">
 						</div>
 					</a>
 				</router-link>
