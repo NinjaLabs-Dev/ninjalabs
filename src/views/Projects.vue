@@ -120,6 +120,28 @@ export default {
 					]
 				},
 				{
+					name: 'United Gaming - FiveM',
+					link: 'https://ugnetwork.net',
+					timespan: '21/09/2022 - Present',
+					description: 'Continuous on in-game systems and scripts providing new opportunities for players and create a fun and enjoyable environment to RP in.',
+					positions: [
+						{
+							content: [
+								'Support (21/09/2022 - 20/10/2022)',
+								'Mod  (20/10/2022 - 30/11/2022)',
+								'Admin  (30/11/2022 - Present)'
+							],
+							color: 'border-left-primary'
+						},
+						{
+							content: [
+								'Lead Developer (8/11/2022 - Present)'
+							],
+							color: 'border-left-danger'
+						}
+					]
+				},
+				{
 					name: 'TruckersFM',
 					link: 'https://truckers.fm',
 					timespan: '7/9/2018 - Present',
@@ -127,20 +149,20 @@ export default {
 					positions: [
 						{
 							content: [
-								'Presenter (7/9/2018 - Present)'
+								'Presenter (7/9/2018 - 16/11/22)'
 							],
 							color: 'border-left-primary'
 						},
 						{
 							content: [
-								'Discord Admin (30/1/2021 - Present)',
+								'Discord Admin (30/1/2021 - 16/11/22)',
 								'Discord Moderator (9/2/2019 - 30/1/2021)'
 							],
 							color: 'border-left-danger'
 						},
 						{
 							content: [
-								'Developer (14/11/2020 - Present)'
+								'Developer (14/11/2020 - 16/11/22)'
 							],
 							color: 'border-left-info'
 						}
@@ -153,17 +175,29 @@ export default {
 					positions: [
 						{
 							content: [
-								'Developer (20/09/2019 - 20/10/2020)'
+								'Staff (Upto Managerial Level) (Unknown)'
 							],
 							color: 'border-left-primary'
+						},
+						{
+							content: [
+								'Developer (20/09/2019 - 20/10/2020)'
+							],
+							color: 'border-left-danger'
 						}
 					]
 				}
 			],
 			projects: [
 				{
+					name: 'United Gaming - LFB Discord Bot',
+					github: 'https://github.com/NinjaLabs-Dev/ninjalabs-backend',
+					description: 'Discord bot to allow seamless intergration between discord and google spreadsheets, mainly pulling and updating information on training and more.',
+					image: 'https://cdn.ninjalabs.dev/jTvMQ'
+				},
+				{
 					name: 'NinjaLabs Backend',
-					private: true,
+					github: 'https://github.com/NinjaLabs-Dev/ninjalabs-backend',
 					description: 'Custom made backend for image and document hosting. Also includes server status checks.',
 					image: 'https://cdn.ninjalabs.dev/vLmPA'
 				},
@@ -178,13 +212,7 @@ export default {
 					private: true,
 					description: 'Created a bespoke website tailored towards the clients needs and desires allowing login to change route and slot allocations.',
 					image: 'https://cdn.ninjalabs.dev/gxrOK'
-				},
-				{
-					name: 'Myriad 5 Meta',
-					github: 'https://github.com/NinjaLabs-Dev/myriad-5-now-playing',
-					description: 'A powerful script to get now playing data from Myriad and output to a .txt file.',
-					image: 'https://cdn.ninjalabs.dev/9T2k1',
-				},
+				}
 			]
 		}
 	}
