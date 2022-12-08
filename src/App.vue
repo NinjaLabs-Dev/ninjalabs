@@ -34,6 +34,11 @@
 							Experience
 						</router-link>
 
+						<a href="https://blog.ninjalabs.dev" class="item">
+							<i class='bx bx-dock-left' ></i>
+							Blog
+						</a>
+
 						<router-link to="/contact" class="item">
 							<i class='bx bx-phone' ></i>
 							Contact
