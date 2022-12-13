@@ -127,9 +127,9 @@ export default {
 					positions: [
 						{
 							content: [
-								'Support (21/09/2022 - 20/10/2022)',
+								'Admin  (30/11/2022 - Present)',
 								'Mod  (20/10/2022 - 30/11/2022)',
-								'Admin  (30/11/2022 - Present)'
+								'Support (21/09/2022 - 20/10/2022)',
 							],
 							color: 'border-left-primary'
 						},
@@ -191,7 +191,7 @@ export default {
 			projects: [
 				{
 					name: 'United Gaming - LFB Discord Bot',
-					github: 'https://github.com/NinjaLabs-Dev/ninjalabs-backend',
+					github: 'https://github.com/NinjaLabs-Dev/ug-lfb-bot',
 					description: 'Discord bot to allow seamless intergration between discord and google spreadsheets, mainly pulling and updating information on training and more.',
 					image: 'https://cdn.ninjalabs.dev/jTvMQ'
 				},
