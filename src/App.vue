@@ -39,6 +39,10 @@
 							Blog
 						</a>
 
+						<a rel="me" class="item" href="https://tech.lgbt/@NinjaLabs">
+							Mastodon
+						</a>
+
 						<router-link to="/contact" class="item">
 							<i class='bx bx-phone' ></i>
 							Contact
